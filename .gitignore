@@ -1,0 +1,38 @@
+# Qt Creator
+*.user
+*.user.*
+*.autosave
+
+# CMake
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+.ninja_deps
+.ninja_log
+build.ninja
+Makefile
+
+# Qt generated files
+*_autogen/
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Compiled files
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*~
